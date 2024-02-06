@@ -47,7 +47,7 @@ def calculate_moving_average(events: List[Event], window_size) -> List[MovingAve
             window.popleft()
 
         # Add events to the window that are within the current minute
-        while i < len(events) and timestamps[i] <= current_timestamp:
+        while i < len(timestamps) and timestamps[i] <= current_timestamp:
             window.append(events[i]['duration'])
             i += 1
 
