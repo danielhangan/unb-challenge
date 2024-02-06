@@ -9,7 +9,7 @@ This tool is packaged using setuptools, which allows you to install it and run i
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/danielhangan/unbabel_cli.git
+git clone https://github.com/danielhangan/unb-challenge.git
 ```
 
 2. Navigate to the cloned directory:
@@ -22,8 +22,9 @@ cd unbabel_cli
 
 ```bash
 python3 -m venv env
-source env/bin/activate
-pip install -e .
+. env/bin/activate
+pip3 install -r requirements.txt
+pip3 install -e .
 ```
 
 ## Usage
