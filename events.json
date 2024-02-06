@@ -1,0 +1,1002 @@
+[
+  {
+    "timestamp": "2018-12-26 18:11:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a00",
+    "source_language": "fr",
+    "target_language": "de",
+    "client_name": "fast-delivery",
+    "event_name": "translation_failed",
+    "nr_words": 78,
+    "duration": 30
+  },
+  {
+    "timestamp": "2018-12-26 18:11:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a01",
+    "source_language": "fr",
+    "target_language": "en",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_started",
+    "nr_words": 75,
+    "duration": 30
+  },
+  {
+    "timestamp": "2018-12-26 18:11:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a02",
+    "source_language": "en",
+    "target_language": "fr",
+    "client_name": "taxi-eats",
+    "event_name": "translation_started",
+    "nr_words": 40,
+    "duration": 52
+  },
+  {
+    "timestamp": "2018-12-26 18:11:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a03",
+    "source_language": "de",
+    "target_language": "it",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 74,
+    "duration": 31
+  },
+  {
+    "timestamp": "2018-12-26 18:11:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a04",
+    "source_language": "es",
+    "target_language": "it",
+    "client_name": "airliberty",
+    "event_name": "translation_failed",
+    "nr_words": 52,
+    "duration": 21
+  },
+  {
+    "timestamp": "2018-12-26 18:12:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a05",
+    "source_language": "it",
+    "target_language": "it",
+    "client_name": "fast-delivery",
+    "event_name": "translation_failed",
+    "nr_words": 73,
+    "duration": 18
+  },
+  {
+    "timestamp": "2018-12-26 18:12:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a06",
+    "source_language": "it",
+    "target_language": "it",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_failed",
+    "nr_words": 76,
+    "duration": 12
+  },
+  {
+    "timestamp": "2018-12-26 18:12:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a07",
+    "source_language": "es",
+    "target_language": "fr",
+    "client_name": "book-club",
+    "event_name": "translation_started",
+    "nr_words": 96,
+    "duration": 47
+  },
+  {
+    "timestamp": "2018-12-26 18:12:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a08",
+    "source_language": "de",
+    "target_language": "en",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 66,
+    "duration": 39
+  },
+  {
+    "timestamp": "2018-12-26 18:12:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a09",
+    "source_language": "it",
+    "target_language": "fr",
+    "client_name": "fast-delivery",
+    "event_name": "translation_delivered",
+    "nr_words": 39,
+    "duration": 10
+  },
+  {
+    "timestamp": "2018-12-26 18:13:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a10",
+    "source_language": "de",
+    "target_language": "de",
+    "client_name": "airliberty",
+    "event_name": "translation_started",
+    "nr_words": 41,
+    "duration": 49
+  },
+  {
+    "timestamp": "2018-12-26 18:13:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a11",
+    "source_language": "en",
+    "target_language": "it",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 97,
+    "duration": 27
+  },
+  {
+    "timestamp": "2018-12-26 18:13:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a12",
+    "source_language": "de",
+    "target_language": "de",
+    "client_name": "taxi-eats",
+    "event_name": "translation_failed",
+    "nr_words": 93,
+    "duration": 57
+  },
+  {
+    "timestamp": "2018-12-26 18:13:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a13",
+    "source_language": "es",
+    "target_language": "es",
+    "client_name": "book-club",
+    "event_name": "translation_failed",
+    "nr_words": 59,
+    "duration": 47
+  },
+  {
+    "timestamp": "2018-12-26 18:13:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a14",
+    "source_language": "it",
+    "target_language": "it",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 94,
+    "duration": 34
+  },
+  {
+    "timestamp": "2018-12-26 18:14:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a15",
+    "source_language": "it",
+    "target_language": "en",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 60,
+    "duration": 39
+  },
+  {
+    "timestamp": "2018-12-26 18:14:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a16",
+    "source_language": "fr",
+    "target_language": "fr",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 86,
+    "duration": 54
+  },
+  {
+    "timestamp": "2018-12-26 18:14:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a17",
+    "source_language": "fr",
+    "target_language": "en",
+    "client_name": "fast-delivery",
+    "event_name": "translation_delivered",
+    "nr_words": 66,
+    "duration": 47
+  },
+  {
+    "timestamp": "2018-12-26 18:14:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a18",
+    "source_language": "it",
+    "target_language": "de",
+    "client_name": "taxi-eats",
+    "event_name": "translation_started",
+    "nr_words": 79,
+    "duration": 33
+  },
+  {
+    "timestamp": "2018-12-26 18:14:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a19",
+    "source_language": "fr",
+    "target_language": "en",
+    "client_name": "airliberty",
+    "event_name": "translation_delivered",
+    "nr_words": 86,
+    "duration": 56
+  },
+  {
+    "timestamp": "2018-12-26 18:15:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a20",
+    "source_language": "en",
+    "target_language": "de",
+    "client_name": "taxi-eats",
+    "event_name": "translation_started",
+    "nr_words": 28,
+    "duration": 31
+  },
+  {
+    "timestamp": "2018-12-26 18:15:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a21",
+    "source_language": "de",
+    "target_language": "fr",
+    "client_name": "airliberty",
+    "event_name": "translation_failed",
+    "nr_words": 68,
+    "duration": 30
+  },
+  {
+    "timestamp": "2018-12-26 18:15:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a22",
+    "source_language": "it",
+    "target_language": "en",
+    "client_name": "book-club",
+    "event_name": "translation_started",
+    "nr_words": 30,
+    "duration": 13
+  },
+  {
+    "timestamp": "2018-12-26 18:15:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a23",
+    "source_language": "it",
+    "target_language": "en",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 28,
+    "duration": 15
+  },
+  {
+    "timestamp": "2018-12-26 18:15:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a24",
+    "source_language": "en",
+    "target_language": "en",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_delivered",
+    "nr_words": 93,
+    "duration": 22
+  },
+  {
+    "timestamp": "2018-12-26 18:16:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a25",
+    "source_language": "it",
+    "target_language": "it",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 64,
+    "duration": 28
+  },
+  {
+    "timestamp": "2018-12-26 18:16:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a26",
+    "source_language": "it",
+    "target_language": "de",
+    "client_name": "fast-delivery",
+    "event_name": "translation_started",
+    "nr_words": 67,
+    "duration": 30
+  },
+  {
+    "timestamp": "2018-12-26 18:16:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a27",
+    "source_language": "de",
+    "target_language": "en",
+    "client_name": "airliberty",
+    "event_name": "translation_delivered",
+    "nr_words": 32,
+    "duration": 44
+  },
+  {
+    "timestamp": "2018-12-26 18:16:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a28",
+    "source_language": "en",
+    "target_language": "en",
+    "client_name": "fast-delivery",
+    "event_name": "translation_delivered",
+    "nr_words": 11,
+    "duration": 47
+  },
+  {
+    "timestamp": "2018-12-26 18:16:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a29",
+    "source_language": "es",
+    "target_language": "it",
+    "client_name": "fast-delivery",
+    "event_name": "translation_started",
+    "nr_words": 15,
+    "duration": 57
+  },
+  {
+    "timestamp": "2018-12-26 18:17:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a30",
+    "source_language": "fr",
+    "target_language": "es",
+    "client_name": "fast-delivery",
+    "event_name": "translation_started",
+    "nr_words": 35,
+    "duration": 32
+  },
+  {
+    "timestamp": "2018-12-26 18:17:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a31",
+    "source_language": "it",
+    "target_language": "de",
+    "client_name": "book-club",
+    "event_name": "translation_failed",
+    "nr_words": 51,
+    "duration": 21
+  },
+  {
+    "timestamp": "2018-12-26 18:17:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a32",
+    "source_language": "en",
+    "target_language": "en",
+    "client_name": "book-club",
+    "event_name": "translation_failed",
+    "nr_words": 28,
+    "duration": 58
+  },
+  {
+    "timestamp": "2018-12-26 18:17:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a33",
+    "source_language": "fr",
+    "target_language": "fr",
+    "client_name": "airliberty",
+    "event_name": "translation_failed",
+    "nr_words": 34,
+    "duration": 55
+  },
+  {
+    "timestamp": "2018-12-26 18:17:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a34",
+    "source_language": "es",
+    "target_language": "es",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 29,
+    "duration": 10
+  },
+  {
+    "timestamp": "2018-12-26 18:18:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a35",
+    "source_language": "en",
+    "target_language": "es",
+    "client_name": "airliberty",
+    "event_name": "translation_started",
+    "nr_words": 27,
+    "duration": 48
+  },
+  {
+    "timestamp": "2018-12-26 18:18:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a36",
+    "source_language": "it",
+    "target_language": "en",
+    "client_name": "fast-delivery",
+    "event_name": "translation_delivered",
+    "nr_words": 58,
+    "duration": 22
+  },
+  {
+    "timestamp": "2018-12-26 18:18:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a37",
+    "source_language": "es",
+    "target_language": "de",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_failed",
+    "nr_words": 49,
+    "duration": 23
+  },
+  {
+    "timestamp": "2018-12-26 18:18:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a38",
+    "source_language": "es",
+    "target_language": "de",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 16,
+    "duration": 47
+  },
+  {
+    "timestamp": "2018-12-26 18:18:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a39",
+    "source_language": "en",
+    "target_language": "es",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_started",
+    "nr_words": 75,
+    "duration": 38
+  },
+  {
+    "timestamp": "2018-12-26 18:19:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a40",
+    "source_language": "fr",
+    "target_language": "en",
+    "client_name": "airliberty",
+    "event_name": "translation_started",
+    "nr_words": 73,
+    "duration": 45
+  },
+  {
+    "timestamp": "2018-12-26 18:19:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a41",
+    "source_language": "en",
+    "target_language": "fr",
+    "client_name": "fast-delivery",
+    "event_name": "translation_started",
+    "nr_words": 24,
+    "duration": 13
+  },
+  {
+    "timestamp": "2018-12-26 18:19:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a42",
+    "source_language": "de",
+    "target_language": "es",
+    "client_name": "airliberty",
+    "event_name": "translation_failed",
+    "nr_words": 70,
+    "duration": 45
+  },
+  {
+    "timestamp": "2018-12-26 18:19:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a43",
+    "source_language": "en",
+    "target_language": "de",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 44,
+    "duration": 55
+  },
+  {
+    "timestamp": "2018-12-26 18:19:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a44",
+    "source_language": "fr",
+    "target_language": "es",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_started",
+    "nr_words": 65,
+    "duration": 15
+  },
+  {
+    "timestamp": "2018-12-26 18:20:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a45",
+    "source_language": "es",
+    "target_language": "en",
+    "client_name": "book-club",
+    "event_name": "translation_failed",
+    "nr_words": 85,
+    "duration": 38
+  },
+  {
+    "timestamp": "2018-12-26 18:20:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a46",
+    "source_language": "de",
+    "target_language": "de",
+    "client_name": "fast-delivery",
+    "event_name": "translation_failed",
+    "nr_words": 62,
+    "duration": 55
+  },
+  {
+    "timestamp": "2018-12-26 18:20:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a47",
+    "source_language": "it",
+    "target_language": "es",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 51,
+    "duration": 22
+  },
+  {
+    "timestamp": "2018-12-26 18:20:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a48",
+    "source_language": "en",
+    "target_language": "es",
+    "client_name": "fast-delivery",
+    "event_name": "translation_failed",
+    "nr_words": 27,
+    "duration": 42
+  },
+  {
+    "timestamp": "2018-12-26 18:20:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a49",
+    "source_language": "it",
+    "target_language": "es",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 36,
+    "duration": 14
+  },
+  {
+    "timestamp": "2018-12-26 18:21:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a50",
+    "source_language": "fr",
+    "target_language": "it",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_delivered",
+    "nr_words": 68,
+    "duration": 14
+  },
+  {
+    "timestamp": "2018-12-26 18:21:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a51",
+    "source_language": "en",
+    "target_language": "es",
+    "client_name": "airliberty",
+    "event_name": "translation_started",
+    "nr_words": 94,
+    "duration": 29
+  },
+  {
+    "timestamp": "2018-12-26 18:21:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a52",
+    "source_language": "it",
+    "target_language": "en",
+    "client_name": "airliberty",
+    "event_name": "translation_delivered",
+    "nr_words": 80,
+    "duration": 17
+  },
+  {
+    "timestamp": "2018-12-26 18:21:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a53",
+    "source_language": "de",
+    "target_language": "es",
+    "client_name": "fast-delivery",
+    "event_name": "translation_started",
+    "nr_words": 88,
+    "duration": 10
+  },
+  {
+    "timestamp": "2018-12-26 18:21:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a54",
+    "source_language": "es",
+    "target_language": "de",
+    "client_name": "airliberty",
+    "event_name": "translation_started",
+    "nr_words": 83,
+    "duration": 21
+  },
+  {
+    "timestamp": "2018-12-26 18:22:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a55",
+    "source_language": "en",
+    "target_language": "en",
+    "client_name": "fast-delivery",
+    "event_name": "translation_delivered",
+    "nr_words": 91,
+    "duration": 22
+  },
+  {
+    "timestamp": "2018-12-26 18:22:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a56",
+    "source_language": "es",
+    "target_language": "es",
+    "client_name": "airliberty",
+    "event_name": "translation_delivered",
+    "nr_words": 58,
+    "duration": 22
+  },
+  {
+    "timestamp": "2018-12-26 18:22:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a57",
+    "source_language": "es",
+    "target_language": "en",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_failed",
+    "nr_words": 57,
+    "duration": 44
+  },
+  {
+    "timestamp": "2018-12-26 18:22:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a58",
+    "source_language": "fr",
+    "target_language": "fr",
+    "client_name": "airliberty",
+    "event_name": "translation_started",
+    "nr_words": 82,
+    "duration": 40
+  },
+  {
+    "timestamp": "2018-12-26 18:22:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a59",
+    "source_language": "it",
+    "target_language": "en",
+    "client_name": "airliberty",
+    "event_name": "translation_delivered",
+    "nr_words": 22,
+    "duration": 38
+  },
+  {
+    "timestamp": "2018-12-26 18:23:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a60",
+    "source_language": "es",
+    "target_language": "it",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 90,
+    "duration": 37
+  },
+  {
+    "timestamp": "2018-12-26 18:23:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a61",
+    "source_language": "fr",
+    "target_language": "de",
+    "client_name": "fast-delivery",
+    "event_name": "translation_failed",
+    "nr_words": 64,
+    "duration": 14
+  },
+  {
+    "timestamp": "2018-12-26 18:23:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a62",
+    "source_language": "it",
+    "target_language": "de",
+    "client_name": "fast-delivery",
+    "event_name": "translation_started",
+    "nr_words": 24,
+    "duration": 49
+  },
+  {
+    "timestamp": "2018-12-26 18:23:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a63",
+    "source_language": "it",
+    "target_language": "de",
+    "client_name": "airliberty",
+    "event_name": "translation_failed",
+    "nr_words": 63,
+    "duration": 59
+  },
+  {
+    "timestamp": "2018-12-26 18:23:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a64",
+    "source_language": "de",
+    "target_language": "de",
+    "client_name": "fast-delivery",
+    "event_name": "translation_started",
+    "nr_words": 71,
+    "duration": 24
+  },
+  {
+    "timestamp": "2018-12-26 18:24:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a65",
+    "source_language": "fr",
+    "target_language": "en",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_started",
+    "nr_words": 45,
+    "duration": 41
+  },
+  {
+    "timestamp": "2018-12-26 18:24:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a66",
+    "source_language": "en",
+    "target_language": "fr",
+    "client_name": "airliberty",
+    "event_name": "translation_started",
+    "nr_words": 50,
+    "duration": 52
+  },
+  {
+    "timestamp": "2018-12-26 18:24:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a67",
+    "source_language": "de",
+    "target_language": "it",
+    "client_name": "fast-delivery",
+    "event_name": "translation_delivered",
+    "nr_words": 17,
+    "duration": 38
+  },
+  {
+    "timestamp": "2018-12-26 18:24:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a68",
+    "source_language": "fr",
+    "target_language": "fr",
+    "client_name": "taxi-eats",
+    "event_name": "translation_failed",
+    "nr_words": 85,
+    "duration": 17
+  },
+  {
+    "timestamp": "2018-12-26 18:24:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a69",
+    "source_language": "it",
+    "target_language": "en",
+    "client_name": "airliberty",
+    "event_name": "translation_delivered",
+    "nr_words": 54,
+    "duration": 49
+  },
+  {
+    "timestamp": "2018-12-26 18:25:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a70",
+    "source_language": "en",
+    "target_language": "fr",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_failed",
+    "nr_words": 99,
+    "duration": 36
+  },
+  {
+    "timestamp": "2018-12-26 18:25:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a71",
+    "source_language": "fr",
+    "target_language": "en",
+    "client_name": "book-club",
+    "event_name": "translation_started",
+    "nr_words": 83,
+    "duration": 20
+  },
+  {
+    "timestamp": "2018-12-26 18:25:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a72",
+    "source_language": "fr",
+    "target_language": "fr",
+    "client_name": "book-club",
+    "event_name": "translation_started",
+    "nr_words": 47,
+    "duration": 42
+  },
+  {
+    "timestamp": "2018-12-26 18:25:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a73",
+    "source_language": "en",
+    "target_language": "it",
+    "client_name": "fast-delivery",
+    "event_name": "translation_delivered",
+    "nr_words": 84,
+    "duration": 37
+  },
+  {
+    "timestamp": "2018-12-26 18:25:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a74",
+    "source_language": "es",
+    "target_language": "fr",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 99,
+    "duration": 13
+  },
+  {
+    "timestamp": "2018-12-26 18:26:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a75",
+    "source_language": "fr",
+    "target_language": "en",
+    "client_name": "airliberty",
+    "event_name": "translation_delivered",
+    "nr_words": 31,
+    "duration": 21
+  },
+  {
+    "timestamp": "2018-12-26 18:26:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a76",
+    "source_language": "de",
+    "target_language": "de",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_failed",
+    "nr_words": 37,
+    "duration": 12
+  },
+  {
+    "timestamp": "2018-12-26 18:26:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a77",
+    "source_language": "it",
+    "target_language": "fr",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 58,
+    "duration": 19
+  },
+  {
+    "timestamp": "2018-12-26 18:26:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a78",
+    "source_language": "fr",
+    "target_language": "en",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_failed",
+    "nr_words": 34,
+    "duration": 57
+  },
+  {
+    "timestamp": "2018-12-26 18:26:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a79",
+    "source_language": "en",
+    "target_language": "fr",
+    "client_name": "fast-delivery",
+    "event_name": "translation_failed",
+    "nr_words": 92,
+    "duration": 11
+  },
+  {
+    "timestamp": "2018-12-26 18:27:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a80",
+    "source_language": "en",
+    "target_language": "de",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_failed",
+    "nr_words": 24,
+    "duration": 13
+  },
+  {
+    "timestamp": "2018-12-26 18:27:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a81",
+    "source_language": "de",
+    "target_language": "es",
+    "client_name": "hotel-paradise",
+    "event_name": "translation_failed",
+    "nr_words": 17,
+    "duration": 19
+  },
+  {
+    "timestamp": "2018-12-26 18:27:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a82",
+    "source_language": "it",
+    "target_language": "en",
+    "client_name": "taxi-eats",
+    "event_name": "translation_failed",
+    "nr_words": 73,
+    "duration": 47
+  },
+  {
+    "timestamp": "2018-12-26 18:27:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a83",
+    "source_language": "fr",
+    "target_language": "es",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 13,
+    "duration": 33
+  },
+  {
+    "timestamp": "2018-12-26 18:27:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a84",
+    "source_language": "es",
+    "target_language": "en",
+    "client_name": "fast-delivery",
+    "event_name": "translation_failed",
+    "nr_words": 55,
+    "duration": 29
+  },
+  {
+    "timestamp": "2018-12-26 18:28:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a85",
+    "source_language": "de",
+    "target_language": "it",
+    "client_name": "book-club",
+    "event_name": "translation_started",
+    "nr_words": 32,
+    "duration": 46
+  },
+  {
+    "timestamp": "2018-12-26 18:28:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a86",
+    "source_language": "it",
+    "target_language": "es",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 96,
+    "duration": 36
+  },
+  {
+    "timestamp": "2018-12-26 18:28:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a87",
+    "source_language": "en",
+    "target_language": "es",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 59,
+    "duration": 31
+  },
+  {
+    "timestamp": "2018-12-26 18:28:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a88",
+    "source_language": "es",
+    "target_language": "fr",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 57,
+    "duration": 56
+  },
+  {
+    "timestamp": "2018-12-26 18:28:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a89",
+    "source_language": "en",
+    "target_language": "it",
+    "client_name": "taxi-eats",
+    "event_name": "translation_started",
+    "nr_words": 77,
+    "duration": 49
+  },
+  {
+    "timestamp": "2018-12-26 18:29:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a90",
+    "source_language": "es",
+    "target_language": "es",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 60,
+    "duration": 32
+  },
+  {
+    "timestamp": "2018-12-26 18:29:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a91",
+    "source_language": "es",
+    "target_language": "it",
+    "client_name": "book-club",
+    "event_name": "translation_failed",
+    "nr_words": 64,
+    "duration": 41
+  },
+  {
+    "timestamp": "2018-12-26 18:29:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a92",
+    "source_language": "it",
+    "target_language": "it",
+    "client_name": "taxi-eats",
+    "event_name": "translation_failed",
+    "nr_words": 50,
+    "duration": 22
+  },
+  {
+    "timestamp": "2018-12-26 18:29:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a93",
+    "source_language": "es",
+    "target_language": "es",
+    "client_name": "book-club",
+    "event_name": "translation_delivered",
+    "nr_words": 35,
+    "duration": 31
+  },
+  {
+    "timestamp": "2018-12-26 18:29:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a94",
+    "source_language": "es",
+    "target_language": "en",
+    "client_name": "taxi-eats",
+    "event_name": "translation_failed",
+    "nr_words": 52,
+    "duration": 25
+  },
+  {
+    "timestamp": "2018-12-26 18:30:08.509654",
+    "translation_id": "5aa5b2f39f7254a75a95",
+    "source_language": "it",
+    "target_language": "es",
+    "client_name": "fast-delivery",
+    "event_name": "translation_delivered",
+    "nr_words": 96,
+    "duration": 55
+  },
+  {
+    "timestamp": "2018-12-26 18:30:20.509654",
+    "translation_id": "5aa5b2f39f7254a75a96",
+    "source_language": "en",
+    "target_language": "fr",
+    "client_name": "fast-delivery",
+    "event_name": "translation_started",
+    "nr_words": 11,
+    "duration": 29
+  },
+  {
+    "timestamp": "2018-12-26 18:30:32.509654",
+    "translation_id": "5aa5b2f39f7254a75a97",
+    "source_language": "es",
+    "target_language": "es",
+    "client_name": "airliberty",
+    "event_name": "translation_started",
+    "nr_words": 55,
+    "duration": 38
+  },
+  {
+    "timestamp": "2018-12-26 18:30:44.509654",
+    "translation_id": "5aa5b2f39f7254a75a98",
+    "source_language": "it",
+    "target_language": "it",
+    "client_name": "taxi-eats",
+    "event_name": "translation_started",
+    "nr_words": 87,
+    "duration": 53
+  },
+  {
+    "timestamp": "2018-12-26 18:30:56.509654",
+    "translation_id": "5aa5b2f39f7254a75a99",
+    "source_language": "fr",
+    "target_language": "fr",
+    "client_name": "taxi-eats",
+    "event_name": "translation_delivered",
+    "nr_words": 62,
+    "duration": 40
+  }
+]
