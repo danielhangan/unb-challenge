@@ -1,38 +1,64 @@
 from typing import List
-from datetime import datetime
 from ..schema import MovingAverage, Event
+from datetime import datetime, timedelta
+from collections import deque
 
-
-def aggregate_translation_delivered(data: List[Event], window_size: int) -> List[MovingAverage]:
+def calculate_moving_average(events: List[Event], window_size) -> List[MovingAverage]:
     """
-    This function calculates the moving average of 'translation_delivered' events.
+    Calculate the moving average of delivery times for a list of events.
+
+    This function calculates the moving average of delivery times for a list of events, 
+    using a sliding window approach. The window size is specified in minutes.
 
     Args:
-    data (list): List of events.
-    window_size (int): The size of the moving window.
+        events (List[Event]): A list of events. Each event is a dictionary that includes a timestamp and a delivery time.
+        window_size (int): The size of the sliding window in minutes.
 
     Returns:
-    list: A list of MovingAverage objects containing the date and average delivery time.
+        List[MovingAverage]: A list of moving averages. Each moving average is a dictionary that includes a timestamp and an average delivery time.
     """
-    result = {}
+    window = deque()
+    averages = []
+    # Convert the timestamps to datetime objects and get the min and max
+    timestamps = [datetime.strptime(event['timestamp'], '%Y-%m-%d %H:%M:%S.%f') for event in events if event['event_name'] == 'translation_delivered']
 
-    for event in data:
-        if event['event_name'] == 'translation_delivered':
-            minute = event['timestamp'][:16] + ':00'
+    if not timestamps:
+        return []
 
-            if minute not in result:
-                result[minute] = {'count': 0, 'sum': 0}
+    min_timestamp = min(timestamps)
+    max_timestamp = max(timestamps)
 
-            result[minute]['sum'] += event['duration']
-            result[minute]['count'] += 1
+    # Round down the min timestamp to the nearest minute
+    min_timestamp = min_timestamp.replace(second=0, microsecond=0)
 
-    output = []
-    
-    for minute in sorted(result.keys()):
-        average_delivery_time = result[minute]['sum'] / result[minute]['count']
-        output.append(MovingAverage(date=datetime.strptime(minute, '%Y-%m-%d %H:%M:%S'), average_delivery_time=average_delivery_time))
+    # Round up the max timestamp to the nearest minute
+    max_timestamp = max_timestamp + timedelta(minutes=1)
 
-    if len(output) > window_size:
-        output.pop(0)
+    # Initialize the current timestamp to the min timestamp
+    current_timestamp = min_timestamp
 
-    return output
+    # Initialize the index for the events list
+    i = 0
+
+    # Iterate over every minute in the range of timestamps
+    while current_timestamp <= max_timestamp:
+        # Remove events from the window that are older than window_size minutes
+        while window and current_timestamp - timestamps[i - len(window)] >= timedelta(minutes=window_size):
+            window.popleft()
+
+        # Add events to the window that are within the current minute
+        while i < len(events) and timestamps[i] <= current_timestamp:
+            window.append(events[i]['duration'])
+            i += 1
+
+        # Calculate the average delivery time for the events in the window
+        average_delivery_time = sum(window) / len(window) if window else 0
+
+        # Add the result to the averages list
+        averages.append(MovingAverage(date=current_timestamp.strftime('%Y-%m-%d %H:%M:%S'), average_delivery_time=average_delivery_time))
+
+        # Move to the next minute
+        current_timestamp += timedelta(minutes=1)
+
+
+    return averages
