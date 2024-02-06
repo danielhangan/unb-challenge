@@ -1,4 +1,3 @@
-import pytest
 import datetime
 from unbabel_cli.schema import MovingAverage
 from unbabel_cli.data_processing.moving_average import aggregate_translation_delivered

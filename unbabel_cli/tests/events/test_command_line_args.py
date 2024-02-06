@@ -1,4 +1,3 @@
-import pytest
 from click.testing import CliRunner
 from unbabel_cli.main import main
 

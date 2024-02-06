@@ -1,4 +1,3 @@
-from pydantic import ValidationError
 import pytest
 from unbabel_cli.data_validation.events_validator import events_input_validator, events_output_validator
 from unbabel_cli.schema import MovingAverage

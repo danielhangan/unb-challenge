@@ -1,6 +1,5 @@
 
 
-import json
 import random
 from datetime import datetime, timedelta
 
@@ -10,15 +9,10 @@ events_names = ["translation_delivered", "translation_started", "translation_fai
 
 start_time = datetime.strptime("2018-12-26 18:11:08.509654", "%Y-%m-%d %H:%M:%S.%f")
 
-
-
-# with open('unbabel_cli/events.json', 'w') as f:
-#     json.dump(events, f, indent=2)
-
 def generate_json_data():
     events =[]
     for i in range(100):
-        event_time = start_time + timedelta(minutes=i//5, seconds=i%5*12)  # at least 5 events per minute
+        event_time = start_time + timedelta(minutes=i//5, seconds=i%5*12)
         event = {
             "timestamp": event_time.strftime("%Y-%m-%d %H:%M:%S.%f"),
             "translation_id": f"5aa5b2f39f7254a75a{i:02}",
