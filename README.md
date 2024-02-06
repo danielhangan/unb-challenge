@@ -15,7 +15,7 @@ git clone https://github.com/danielhangan/unb-challenge.git
 2. Navigate to the cloned directory:
 
 ```bash
-cd unbabel_cli
+cd unb-challenge
 ```
 
 3. Install the package. It's recommended to use a virtual environment:
