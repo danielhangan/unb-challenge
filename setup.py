@@ -6,10 +6,13 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'Click',
+        'click',
+        'pydantic',
+        'pytest',
     ],
-    entry_points='''
-        [console_scripts]
-        unbabel_cli=unbabel_cli.main:main
-    ''',
+        entry_points={
+        'console_scripts': [
+            'unbabel_cli=unbabel_cli.main:main',
+        ],
+    },
 )
